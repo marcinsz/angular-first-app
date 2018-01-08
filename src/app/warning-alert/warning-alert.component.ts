@@ -3,8 +3,8 @@ import { Component } from '@angular/core'
 
 @Component({
   selector: 'app-warning-alert',
-  templateUrl: './warning-alert.component.html'
-  styleUrl: './warning-alert.css'
+  template: '<p class="alert alert-warning"> ALERT!! </p>',
+  styles:   ['p {color: red;}']
 })
 export class WarningAlertComponent {
   
